@@ -1,0 +1,96 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewLogin"
+        android:layout_width="400dp"
+        android:layout_height="359dp"
+        app:srcCompat="@drawable/cover"
+        android:translationX="5dp"
+        android:translationY="34dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewLoginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Page"
+        android:translationX="28dp"
+        android:translationY="6dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewLoginUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:translationX="21dp"
+        android:translationY="435dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextLoginUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        android:translationX="138dp"
+        android:translationY="419dp"
+        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewLoginPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:translationX="23dp"
+        android:translationY="489dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextLoginPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:translationX="138dp"
+        android:translationY="478dp"
+        tools:ignore="Autofill,LabelFor,MissingConstraints" />
+
+    <Button
+        android:id="@+id/loginSubmitButton"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#000000"
+        android:text="LogIn"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:translationX="130dp"
+        android:translationY="548dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewNoAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Don't have an account?"
+        android:textColor="#737070"
+        android:translationX="124dp"
+        android:translationY="650dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/loginRegisterRedirect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click here to Register"
+        android:translationX="150dp"
+        android:translationY="681dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

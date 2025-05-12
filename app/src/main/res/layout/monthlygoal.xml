@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/menu" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monthly Goal"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginStart="12dp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/descriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter description"
+            android:background="@android:color/transparent"
+            android:textColor="#000000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <!-- Target Amount -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Target Amount"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/targetAmountEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="R"
+            android:inputType="numberDecimal"
+            android:background="@android:color/transparent"
+            android:textColor="#000000" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000" />
+
+        <!-- Create Button -->
+        <Button
+            android:id="@+id/createGoalButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Goal"
+            android:layout_marginTop="32dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:backgroundTint="#FFD600" />
+
+    </LinearLayout>
+</ScrollView>
